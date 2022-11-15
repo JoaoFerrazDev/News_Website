@@ -207,11 +207,12 @@ picture > img {
     }
 
     .shadow_menu {
-        display: none;
+        display: none !important;
+        
     }
 
     .menu {
-        display: none;
+        display: none !important;
     }
     
     .horizontal_options {
