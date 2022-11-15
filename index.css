@@ -86,15 +86,7 @@ picture > img {
 .text_with_read_more{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.text_with_read_more p {
-    margin-bottom: 20px;
-}
-
-.text_with_read_more a {
-    margin-bottom: 40px;
+    justify-content: space-between;
 }
 
 .flex_text_below_bigPicture h2{
@@ -106,6 +98,8 @@ picture > img {
     font-size: 18px;
     font-weight: 400;
     color: hsl(236, 13%, 42%);
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .text_with_read_more a {
@@ -117,6 +111,7 @@ picture > img {
     padding: 10px 10px;
     text-align: center;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .flex_vertical_text {
@@ -128,19 +123,19 @@ picture > img {
     color: hsl(35, 77%, 62%);
     font-weight: 800;
     font-size: 40px;
-    
 }
 
-.flex_vertical_text h3 {
+.flex_vertical_text_item a {
     color: hsl(36, 100%, 99%);
     font-weight: 800;
-    margin-top: 35px;
+    font-size: 20px;
 }
 
 .flex_vertical_text p {
     color: hsl(236, 13%, 42%);
     font-weight: 400;
     font-size: 15px;
+    margin-top: 15px;
 }
 
 .flex_vertical_text hr {
@@ -148,6 +143,10 @@ picture > img {
     border: none;
     height: 1px;
     background-color: white;
+}
+
+.flex_vertical_text_item {
+    margin-top: 35px;
 }
 
 .footer_images {
@@ -283,6 +282,10 @@ picture > img {
 
     .footer_images_item {
         width: auto;
+    }
+
+    .flex_vertical_text_item a:hover {
+        color: hsl(35, 77%, 62%);
     }
 
 }
