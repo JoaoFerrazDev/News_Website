@@ -8,7 +8,7 @@ function openMenu() {
     menu.style.display = "flex";
 }
 
-//Close menu
+//Close Menu
 function closeMenu() {
     shadownMenu.style.display = "none";
     menu.style.display = "none";
